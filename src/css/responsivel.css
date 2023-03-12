@@ -1,0 +1,48 @@
+@media (max-width: 1280px){
+    body{
+        padding: 0 30px;
+    }
+    .informacoes .logo{
+        max-width: 170px;
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 768px){
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    .informacoes p{
+        width: 80%;
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .informacoes .logo{
+        max-width: 150px;
+        opacity: 60%;
+        margin-left: 0;
+    }
+
+    .menu-lateral{
+        position: static;
+        align-items: center;
+        min-height: auto;
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+
+    .menu-lateral .icone{
+        margin-right: 0px;
+
+    }
+
+    .botoes-carrossel{
+        margin-top: 3.5rem;
+    }
+}
